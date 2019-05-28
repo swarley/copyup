@@ -9,7 +9,7 @@ use std::io::prelude::*;
 
 
 fn main() {
-    let matches = App::new("license.rs")
+    let matches = App::new("copyup")
         .version("0.1")
         .author("Matt Carey")
         .about("Download a LICENSE file based on its SPDX identifier.")
