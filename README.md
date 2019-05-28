@@ -2,6 +2,11 @@
 
 A command line tool for fetching licenses
 
+```
+is copyup too clever for small brains
+                           - z64#1337
+```
+
 ## Installation
 
 ```sh
