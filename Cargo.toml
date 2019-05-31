@@ -4,7 +4,6 @@ version = "0.1.0"
 authors = ["Matthew Carey <matthew.b.carey@gmail.com>"]
 edition = "2018"
 license = "MIT"
-license-file = "LICENSE"
 description = "Command line tool to download license files based on SPDX ids."
 readme = "README.md"
 homepage = "https://github.com/swarley/copyup"
@@ -18,3 +17,9 @@ serde = "1.0"
 serde_json = "1.0"
 strsim = "0.9.2"
 clap = "2.31.2"
+
+[package.metadata.rpm.cargo]
+buildflags = ["--release"]
+
+[package.metadata.rpm.targets]
+copyup = { path = "/usr/bin/copyup" }
