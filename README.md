@@ -7,13 +7,28 @@ is copyup too clever for small brains
                            - z64#1337
 ```
 
+------------------- 
 ## Installation
 
+
+### From Source
 ```sh
 git clone https://github.com/swarley/copyup
 cd copyup
 cargo install --path .
 ```
+
+### Via `cargo install`
+```sh
+cargo install copyup
+```
+
+### Precompiled package or binary
+
+Obtain the file relevant to you from [releases](https://github.com/swarley/copyup/releases)
+
+-------------------
+
 
 ## Usage
 
